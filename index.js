@@ -3,7 +3,7 @@ var customerName = 'bob';
 
 // Write a function that accesses that global customerName variable, and uppercases it.
 function upperCaseCustomerName() {
-    return customerName.toUpperCase(); // Return the uppercase version without modifying the original variable
+    return customerName.toUpperCase(); // Accesses and returns the uppercase version of customerName without modifying it.
 }
 
 // Write a function that when called, declares a variable called bestCustomer in global scope and assigns it to be 'not bob'.
