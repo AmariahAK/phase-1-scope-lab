@@ -1,6 +1,6 @@
 // Write your solution in this file!
 // Declare a variable in global scope called customerName using the var keyword and assign it the value 'bob'.
-var customerName = 'bob';
+var customerName = 'BOB';
 
 // Write a function that accesses that global customerName variable, and uppercases it.
 function upperCaseCustomerName() {
