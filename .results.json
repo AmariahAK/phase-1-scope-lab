@@ -5,9 +5,9 @@
     "passes": 4,
     "pending": 0,
     "failures": 1,
-    "start": "2024-03-20T13:32:27.096Z",
-    "end": "2024-03-20T13:32:29.470Z",
-    "duration": 2374
+    "start": "2024-03-20T13:33:55.869Z",
+    "end": "2024-03-20T13:33:57.925Z",
+    "duration": 2056
   },
   "tests": [
     {
@@ -20,7 +20,7 @@
     {
       "title": "modifies the customerName variable",
       "fullTitle": "Fix the Scope upperCaseCustomerName() modifies the customerName variable",
-      "duration": 5,
+      "duration": 16,
       "currentRetry": 0,
       "err": {
         "message": "expected 'bob' to equal 'BOB'",
@@ -33,21 +33,21 @@
     {
       "title": "setBestCustomer",
       "fullTitle": "Fix the Scope setBestCustomer() setBestCustomer",
-      "duration": 5,
+      "duration": 7,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "overwrites the best customer",
       "fullTitle": "Fix the Scope overwriteBestCustomer() overwrites the best customer",
-      "duration": 10,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "unsuccessfully tries to reassign the least favorite customer",
       "fullTitle": "Fix the Scope changeLeastFavoriteCustomer() unsuccessfully tries to reassign the least favorite customer",
-      "duration": 14,
+      "duration": 4,
       "currentRetry": 0,
       "err": {}
     }
@@ -57,7 +57,7 @@
     {
       "title": "modifies the customerName variable",
       "fullTitle": "Fix the Scope upperCaseCustomerName() modifies the customerName variable",
-      "duration": 5,
+      "duration": 16,
       "currentRetry": 0,
       "err": {
         "message": "expected 'bob' to equal 'BOB'",
@@ -79,21 +79,21 @@
     {
       "title": "setBestCustomer",
       "fullTitle": "Fix the Scope setBestCustomer() setBestCustomer",
-      "duration": 5,
+      "duration": 7,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "overwrites the best customer",
       "fullTitle": "Fix the Scope overwriteBestCustomer() overwrites the best customer",
-      "duration": 10,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "unsuccessfully tries to reassign the least favorite customer",
       "fullTitle": "Fix the Scope changeLeastFavoriteCustomer() unsuccessfully tries to reassign the least favorite customer",
-      "duration": 14,
+      "duration": 4,
       "currentRetry": 0,
       "err": {}
     }
