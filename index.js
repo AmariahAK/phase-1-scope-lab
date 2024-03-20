@@ -1,6 +1,5 @@
-// Write your solution in this file!
 // Declare a variable in global scope called customerName using the var keyword and assign it the value 'bob'.
-var customerName = 'BOB';
+var customerName = 'bob';
 
 // Write a function that accesses that global customerName variable, and uppercases it.
 function upperCaseCustomerName() {
@@ -25,3 +24,12 @@ function changeLeastFavoriteCustomer() {
     // Attempting to change the constant will result in an error.
     leastFavoriteCustomer = 'someone else'; // This line will throw a TypeError because you cannot reassign a constant.
 }
+
+module.exports = {
+    customerName,
+    upperCaseCustomerName,
+    setBestCustomer,
+    overwriteBestCustomer,
+    leastFavoriteCustomer,
+    changeLeastFavoriteCustomer
+};

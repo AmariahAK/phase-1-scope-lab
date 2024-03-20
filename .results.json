@@ -2,38 +2,44 @@
   "stats": {
     "suites": 6,
     "tests": 5,
-    "passes": 4,
+    "passes": 3,
     "pending": 0,
-    "failures": 1,
-    "start": "2024-03-20T13:24:32.914Z",
-    "end": "2024-03-20T13:24:35.284Z",
-    "duration": 2370
+    "failures": 2,
+    "start": "2024-03-20T13:26:13.543Z",
+    "end": "2024-03-20T13:26:16.290Z",
+    "duration": 2747
   },
   "tests": [
     {
       "title": "returns the customerName",
       "fullTitle": "Fix the Scope declare customerName to be bob in global scope returns the customerName",
-      "duration": 14,
+      "duration": 19,
       "currentRetry": 0,
-      "err": {}
+      "err": {
+        "message": "expected 'BOB' to equal 'bob'",
+        "showDiff": true,
+        "actual": "BOB",
+        "expected": "bob",
+        "stack": "AssertionError: expected 'BOB' to equal 'bob'\n    at Context.<anonymous> (test/indexTest.js:6:38)\n    at process.processImmediate (node:internal/timers:478:21)"
+      }
     },
     {
       "title": "modifies the customerName variable",
       "fullTitle": "Fix the Scope upperCaseCustomerName() modifies the customerName variable",
-      "duration": 10,
+      "duration": 1,
       "currentRetry": 0,
       "err": {
-        "message": "expected 'bob' to equal 'BOB'",
+        "message": "expected 'BOB' to equal 'bob'",
         "showDiff": true,
-        "actual": "bob",
-        "expected": "BOB",
-        "stack": "AssertionError: expected 'bob' to equal 'BOB'\n    at Context.<anonymous> (test/indexTest.js:16:38)\n    at process.processImmediate (node:internal/timers:478:21)"
+        "actual": "BOB",
+        "expected": "bob",
+        "stack": "AssertionError: expected 'BOB' to equal 'bob'\n    at Context.<anonymous> (test/indexTest.js:12:38)\n    at process.processImmediate (node:internal/timers:478:21)"
       }
     },
     {
       "title": "setBestCustomer",
       "fullTitle": "Fix the Scope setBestCustomer() setBestCustomer",
-      "duration": 2,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
@@ -47,7 +53,7 @@
     {
       "title": "unsuccessfully tries to reassign the least favorite customer",
       "fullTitle": "Fix the Scope changeLeastFavoriteCustomer() unsuccessfully tries to reassign the least favorite customer",
-      "duration": 13,
+      "duration": 3,
       "currentRetry": 0,
       "err": {}
     }
@@ -55,31 +61,37 @@
   "pending": [],
   "failures": [
     {
-      "title": "modifies the customerName variable",
-      "fullTitle": "Fix the Scope upperCaseCustomerName() modifies the customerName variable",
-      "duration": 10,
+      "title": "returns the customerName",
+      "fullTitle": "Fix the Scope declare customerName to be bob in global scope returns the customerName",
+      "duration": 19,
       "currentRetry": 0,
       "err": {
-        "message": "expected 'bob' to equal 'BOB'",
+        "message": "expected 'BOB' to equal 'bob'",
         "showDiff": true,
-        "actual": "bob",
-        "expected": "BOB",
-        "stack": "AssertionError: expected 'bob' to equal 'BOB'\n    at Context.<anonymous> (test/indexTest.js:16:38)\n    at process.processImmediate (node:internal/timers:478:21)"
+        "actual": "BOB",
+        "expected": "bob",
+        "stack": "AssertionError: expected 'BOB' to equal 'bob'\n    at Context.<anonymous> (test/indexTest.js:6:38)\n    at process.processImmediate (node:internal/timers:478:21)"
+      }
+    },
+    {
+      "title": "modifies the customerName variable",
+      "fullTitle": "Fix the Scope upperCaseCustomerName() modifies the customerName variable",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected 'BOB' to equal 'bob'",
+        "showDiff": true,
+        "actual": "BOB",
+        "expected": "bob",
+        "stack": "AssertionError: expected 'BOB' to equal 'bob'\n    at Context.<anonymous> (test/indexTest.js:12:38)\n    at process.processImmediate (node:internal/timers:478:21)"
       }
     }
   ],
   "passes": [
     {
-      "title": "returns the customerName",
-      "fullTitle": "Fix the Scope declare customerName to be bob in global scope returns the customerName",
-      "duration": 14,
-      "currentRetry": 0,
-      "err": {}
-    },
-    {
       "title": "setBestCustomer",
       "fullTitle": "Fix the Scope setBestCustomer() setBestCustomer",
-      "duration": 2,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
@@ -93,7 +105,7 @@
     {
       "title": "unsuccessfully tries to reassign the least favorite customer",
       "fullTitle": "Fix the Scope changeLeastFavoriteCustomer() unsuccessfully tries to reassign the least favorite customer",
-      "duration": 13,
+      "duration": 3,
       "currentRetry": 0,
       "err": {}
     }
